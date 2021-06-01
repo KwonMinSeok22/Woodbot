@@ -1,0 +1,905 @@
+2021-06-01 14:11:05.121  INFO 10688 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 14:11:05.381  INFO 10688 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 10688 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 14:11:05.432  INFO 10688 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 14:11:05.578  WARN 10688 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 14:11:08.193  WARN 10688 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 14:11:08.274  INFO 10688 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 14:11:08.275  INFO 10688 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2756 ms
+2021-06-01 14:11:09.070  WARN 10688 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 14:11:09.535  INFO 10688 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 14:11:09.902  INFO 10688 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 14:11:09.903  WARN 10688 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 14:11:10.380  INFO 10688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 14:11:11.248  INFO 10688 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 14:11:11.304  INFO 10688 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 14:11:11.456  INFO 10688 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 14:11:11.464  INFO 10688 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.162 seconds (JVM running for 7.844)
+2021-06-01 14:11:11.468  INFO 10688 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 14:11:13.935  INFO 10688 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 14:11:13.936  INFO 10688 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 14:11:13.945  INFO 10688 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-01 14:11:13.974  INFO 10688 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63441
+2021-06-01 14:11:14.069  INFO 10688 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 14:33:29.817  INFO 912 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 14:33:30.012  INFO 912 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 912 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 14:33:30.013  INFO 912 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 14:33:30.103  WARN 912 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 14:33:32.498  WARN 912 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 14:33:32.543  INFO 912 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 14:33:32.544  INFO 912 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2443 ms
+2021-06-01 14:33:33.048  WARN 912 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 14:33:33.713  INFO 912 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 14:33:34.121  INFO 912 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 14:33:34.122  WARN 912 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 14:33:34.483  INFO 912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 14:33:34.955  INFO 912 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 14:33:34.981  INFO 912 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 14:33:35.061  INFO 912 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 14:33:35.069  INFO 912 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.999 seconds (JVM running for 6.799)
+2021-06-01 14:33:35.075  INFO 912 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 14:33:38.124  INFO 912 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 14:33:38.125  INFO 912 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 14:33:38.135  INFO 912 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-06-01 14:33:38.182  INFO 912 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:64240
+2021-06-01 14:33:38.302  INFO 912 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 14:56:03.233  INFO 912 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:64240 -- CloseStatus[code=1006, reason=]
+2021-06-01 14:56:03.234  INFO 912 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 17:37:55.324  INFO 1224 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 17:37:55.540  WARN 1224 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 17:37:55.547  INFO 1224 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 1224 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 17:37:55.550  INFO 1224 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 17:37:58.709  WARN 1224 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 17:37:58.744  INFO 1224 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 17:37:58.745  INFO 1224 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3070 ms
+2021-06-01 17:37:59.328  WARN 1224 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 17:37:59.798  INFO 1224 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 17:38:00.274  INFO 1224 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 17:38:00.275  WARN 1224 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 17:38:00.994  INFO 1224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 17:38:01.790  INFO 1224 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 17:38:01.842  INFO 1224 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 17:38:01.947  INFO 1224 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 17:38:01.966  INFO 1224 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.738 seconds (JVM running for 8.584)
+2021-06-01 17:38:01.974  INFO 1224 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 17:38:44.251  INFO 1224 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 17:38:44.252  INFO 1224 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 17:38:44.261  INFO 1224 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-01 17:38:44.301  INFO 1224 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52268
+2021-06-01 17:38:44.393  INFO 1224 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 17:47:34.364  INFO 10816 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 17:47:34.566  INFO 10816 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 10816 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 17:47:34.572  INFO 10816 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 17:47:34.791  WARN 10816 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 17:47:36.957  WARN 10816 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 17:47:36.997  INFO 10816 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 17:47:36.997  INFO 10816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2268 ms
+2021-06-01 17:47:37.600  WARN 10816 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 17:47:38.106  INFO 10816 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 17:47:38.672  INFO 10816 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 17:47:38.675  WARN 10816 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 17:47:39.257  INFO 10816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 17:47:40.097  INFO 10816 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 17:47:40.126  INFO 10816 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 17:47:40.206  INFO 10816 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 17:47:40.218  INFO 10816 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.607 seconds (JVM running for 7.564)
+2021-06-01 17:47:40.228  INFO 10816 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 17:55:59.007  INFO 12200 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 17:55:59.166  INFO 12200 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 12200 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 17:55:59.169  INFO 12200 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 17:55:59.338  WARN 12200 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 17:56:01.408  WARN 12200 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 17:56:01.441  INFO 12200 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 17:56:01.441  INFO 12200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2171 ms
+2021-06-01 17:56:01.962  WARN 12200 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 17:56:02.466  INFO 12200 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 17:56:02.958  INFO 12200 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 17:56:02.960  WARN 12200 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 17:56:03.358  INFO 12200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 17:56:03.890  INFO 12200 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 17:56:03.966  INFO 12200 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 17:56:04.118  INFO 12200 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 17:56:04.131  INFO 12200 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.939 seconds (JVM running for 6.758)
+2021-06-01 17:56:04.144  INFO 12200 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 17:56:06.875  INFO 12200 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 17:56:06.877  INFO 12200 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 17:56:06.885  INFO 12200 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-01 17:56:06.910  INFO 12200 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58891
+2021-06-01 17:56:07.018  INFO 12200 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 17:59:28.816  INFO 12200 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58891 -- CloseStatus[code=1006, reason=]
+2021-06-01 17:59:28.818  INFO 12200 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:04:26.758  INFO 5088 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:04:27.029  INFO 5088 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 5088 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:04:27.038  INFO 5088 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:04:27.476  WARN 5088 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:04:30.976  WARN 5088 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:04:31.012  INFO 5088 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:04:31.013  INFO 5088 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3706 ms
+2021-06-01 18:04:31.747  WARN 5088 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:04:32.216  INFO 5088 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:04:32.627  INFO 5088 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:04:32.627  WARN 5088 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:04:33.009  INFO 5088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:04:33.569  INFO 5088 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:04:33.612  INFO 5088 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:04:33.715  INFO 5088 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:04:33.723  INFO 5088 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.907 seconds (JVM running for 8.815)
+2021-06-01 18:04:33.727  INFO 5088 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:06:20.027  INFO 7544 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:06:20.203  INFO 7544 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 7544 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:06:20.207  INFO 7544 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:06:20.293  WARN 7544 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:06:22.434  WARN 7544 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:06:22.476  INFO 7544 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:06:22.478  INFO 7544 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2158 ms
+2021-06-01 18:06:23.079  WARN 7544 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:06:23.476  INFO 7544 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:06:23.946  INFO 7544 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:06:23.948  WARN 7544 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:06:24.524  INFO 7544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:06:25.235  INFO 7544 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:06:25.267  INFO 7544 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:06:25.385  INFO 7544 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:06:25.403  INFO 7544 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.416 seconds (JVM running for 7.292)
+2021-06-01 18:06:25.406  INFO 7544 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:11:16.981  INFO 4756 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:11:17.174  INFO 4756 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 4756 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:11:17.176  INFO 4756 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:11:17.296  WARN 4756 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:11:19.403  WARN 4756 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:11:19.441  INFO 4756 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:11:19.442  INFO 4756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2143 ms
+2021-06-01 18:11:20.001  WARN 4756 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:11:20.420  INFO 4756 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:11:20.799  INFO 4756 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:11:20.799  WARN 4756 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:11:21.223  INFO 4756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:11:21.926  INFO 4756 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:11:21.958  INFO 4756 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:11:22.086  INFO 4756 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:11:22.094  INFO 4756 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.847 seconds (JVM running for 6.898)
+2021-06-01 18:11:22.104  INFO 4756 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:13:24.490  INFO 2332 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:13:24.647  INFO 2332 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 2332 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:13:24.649  INFO 2332 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:13:24.835  WARN 2332 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:13:26.797  WARN 2332 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:13:26.828  INFO 2332 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:13:26.828  INFO 2332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2061 ms
+2021-06-01 18:13:27.370  WARN 2332 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:13:27.861  INFO 2332 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:13:28.496  INFO 2332 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:13:28.498  WARN 2332 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:13:28.990  INFO 2332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:13:29.807  INFO 2332 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:13:29.832  INFO 2332 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:13:29.928  INFO 2332 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:13:29.937  INFO 2332 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.141 seconds (JVM running for 6.911)
+2021-06-01 18:13:29.940  INFO 2332 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:15:13.986  INFO 7416 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:15:14.204  INFO 7416 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 7416 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:15:14.248  INFO 7416 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:15:14.389  WARN 7416 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:15:16.819  WARN 7416 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:15:16.853  INFO 7416 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:15:16.853  INFO 7416 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2496 ms
+2021-06-01 18:15:17.418  WARN 7416 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:15:18.035  INFO 7416 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:15:18.364  INFO 7416 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:15:18.366  WARN 7416 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:15:18.955  INFO 7416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:15:19.736  INFO 7416 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:15:19.767  INFO 7416 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:15:19.938  INFO 7416 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:15:19.946  INFO 7416 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.725 seconds (JVM running for 7.654)
+2021-06-01 18:15:19.954  INFO 7416 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:15:58.622  INFO 5396 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:15:58.783  INFO 5396 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 5396 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:15:58.786  INFO 5396 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:15:59.015  WARN 5396 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:16:00.918  WARN 5396 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:16:00.959  INFO 5396 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:16:00.959  INFO 5396 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2048 ms
+2021-06-01 18:16:01.478  WARN 5396 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:16:01.867  INFO 5396 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:16:02.257  INFO 5396 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:16:02.258  WARN 5396 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:16:02.761  INFO 5396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:16:03.263  INFO 5396 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:16:03.281  INFO 5396 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:16:03.371  INFO 5396 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:16:03.377  INFO 5396 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.499 seconds (JVM running for 6.254)
+2021-06-01 18:16:03.380  INFO 5396 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:16:53.029  INFO 4520 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:16:53.237  INFO 4520 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 4520 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:16:53.239  INFO 4520 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:16:53.417  WARN 4520 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:16:55.613  WARN 4520 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:16:55.645  INFO 4520 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:16:55.645  INFO 4520 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2305 ms
+2021-06-01 18:16:56.126  WARN 4520 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:16:56.526  INFO 4520 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:16:56.904  INFO 4520 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:16:56.905  WARN 4520 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:16:57.325  INFO 4520 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:16:57.924  INFO 4520 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:16:57.959  INFO 4520 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:16:58.048  INFO 4520 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:16:58.058  INFO 4520 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.769 seconds (JVM running for 6.654)
+2021-06-01 18:16:58.064  INFO 4520 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:17:01.301  INFO 4520 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:17:01.303  INFO 4520 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:17:01.314  INFO 4520 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-06-01 18:17:01.353  INFO 4520 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59865
+2021-06-01 18:17:01.468  INFO 4520 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:19:39.366  INFO 4520 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59865 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:19:39.369  INFO 4520 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:20:10.424  INFO 3616 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:20:10.616  INFO 3616 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 3616 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:20:10.617  INFO 3616 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:20:10.797  WARN 3616 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:20:13.383  WARN 3616 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:20:13.419  INFO 3616 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:20:13.419  INFO 3616 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2633 ms
+2021-06-01 18:20:13.964  WARN 3616 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:20:14.348  INFO 3616 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:20:14.726  INFO 3616 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:20:14.731  WARN 3616 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:20:15.154  INFO 3616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:20:15.859  INFO 3616 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:20:15.899  INFO 3616 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:20:16.055  INFO 3616 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:20:16.082  INFO 3616 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.469 seconds (JVM running for 7.311)
+2021-06-01 18:20:16.095  INFO 3616 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:20:18.531  INFO 3616 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:20:18.532  INFO 3616 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:20:18.543  INFO 3616 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-06-01 18:20:18.568  INFO 3616 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59978
+2021-06-01 18:20:18.652  INFO 3616 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:20:42.457  INFO 3616 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59978 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:20:42.458  INFO 3616 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:21:52.298  INFO 11504 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:21:52.464  INFO 11504 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 11504 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:21:52.466  INFO 11504 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:21:52.634  WARN 11504 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:21:55.015  WARN 11504 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:21:55.065  INFO 11504 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:21:55.066  INFO 11504 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2502 ms
+2021-06-01 18:21:55.651  WARN 11504 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:21:56.185  INFO 11504 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:21:56.626  INFO 11504 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:21:56.627  WARN 11504 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:21:57.041  INFO 11504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:21:57.804  INFO 11504 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:21:57.850  INFO 11504 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:21:57.981  INFO 11504 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:21:58.004  INFO 11504 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.459 seconds (JVM running for 7.31)
+2021-06-01 18:21:58.016  INFO 11504 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:22:00.413  INFO 11504 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:22:00.415  INFO 11504 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:22:00.432  INFO 11504 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-06-01 18:22:00.463  INFO 11504 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60090
+2021-06-01 18:22:00.544  INFO 11504 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:22:01.538  INFO 11504 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60090 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:22:01.539  INFO 11504 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:24:02.439  INFO 196 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:24:02.630  INFO 196 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 196 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:24:02.632  INFO 196 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:24:02.756  WARN 196 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:24:04.954  WARN 196 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:24:04.986  INFO 196 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:24:04.986  INFO 196 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2258 ms
+2021-06-01 18:24:05.549  WARN 196 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:24:05.992  INFO 196 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:24:06.380  INFO 196 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:24:06.383  WARN 196 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:24:06.820  INFO 196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:24:07.352  INFO 196 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:24:07.392  INFO 196 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:24:07.559  INFO 196 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:24:07.576  INFO 196 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.902 seconds (JVM running for 6.654)
+2021-06-01 18:24:07.583  INFO 196 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:24:10.243  INFO 196 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:24:10.245  INFO 196 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:24:10.255  INFO 196 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-06-01 18:24:10.287  INFO 196 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60178
+2021-06-01 18:24:10.392  INFO 196 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:24:41.968  INFO 196 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60178 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:24:41.969  INFO 196 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:27:33.775  INFO 7216 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:27:33.970  INFO 7216 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 7216 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:27:33.976  INFO 7216 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:27:34.110  WARN 7216 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:27:36.255  WARN 7216 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:27:36.296  INFO 7216 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:27:36.297  INFO 7216 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2218 ms
+2021-06-01 18:27:36.920  WARN 7216 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:27:37.519  INFO 7216 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:27:37.972  INFO 7216 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:27:37.973  WARN 7216 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:27:38.404  INFO 7216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:27:38.923  INFO 7216 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:27:38.942  INFO 7216 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:27:39.030  INFO 7216 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:27:39.041  INFO 7216 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.97 seconds (JVM running for 6.761)
+2021-06-01 18:27:39.044  INFO 7216 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:27:41.699  INFO 7216 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:27:41.700  INFO 7216 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:27:41.713  INFO 7216 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-06-01 18:27:41.740  INFO 7216 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60323
+2021-06-01 18:27:41.833  INFO 7216 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:29:35.011  INFO 7216 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60323 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:29:35.015  INFO 7216 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:29:39.244  INFO 4272 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:29:39.403  INFO 4272 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 4272 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:29:39.414  INFO 4272 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:29:39.611  WARN 4272 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:29:43.542  WARN 4272 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:29:43.579  INFO 4272 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:29:43.579  INFO 4272 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4025 ms
+2021-06-01 18:29:44.118  WARN 4272 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:29:45.036  INFO 4272 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:29:45.505  INFO 4272 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:29:45.526  WARN 4272 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:29:46.281  INFO 4272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:29:47.433  INFO 4272 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:29:47.658  INFO 4272 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:29:48.008  INFO 4272 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:29:48.017  INFO 4272 --- [main] lavalink.server.Launcher                 : Started Launcher in 9.557 seconds (JVM running for 10.495)
+2021-06-01 18:29:48.031  INFO 4272 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:29:50.272  INFO 4272 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:29:50.275  INFO 4272 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:29:50.286  INFO 4272 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-06-01 18:29:50.320  INFO 4272 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60489
+2021-06-01 18:29:50.559  INFO 4272 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:33:14.142  INFO 4272 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60489 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:33:14.143  INFO 4272 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:33:18.844  INFO 6812 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:33:19.049  INFO 6812 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 6812 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:33:19.064  INFO 6812 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:33:19.286  WARN 6812 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:33:22.349  WARN 6812 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:33:22.441  INFO 6812 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:33:22.442  INFO 6812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3205 ms
+2021-06-01 18:33:23.082  WARN 6812 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:33:23.637  INFO 6812 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:33:24.462  INFO 6812 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:33:24.464  WARN 6812 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:33:25.040  INFO 6812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:33:26.023  INFO 6812 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:33:26.138  INFO 6812 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:33:26.322  INFO 6812 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:33:26.347  INFO 6812 --- [main] lavalink.server.Launcher                 : Started Launcher in 8.396 seconds (JVM running for 9.351)
+2021-06-01 18:33:26.372  INFO 6812 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:33:28.439  INFO 6812 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:33:28.440  INFO 6812 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:33:28.448  INFO 6812 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-06-01 18:33:28.476  INFO 6812 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60629
+2021-06-01 18:33:28.573  INFO 6812 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:34:57.323  INFO 6812 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60629 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:34:57.325  INFO 6812 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:35:01.024  INFO 5524 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:35:01.227  INFO 5524 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 5524 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:35:01.237  INFO 5524 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:35:01.412  WARN 5524 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:35:04.583  WARN 5524 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:35:04.624  INFO 5524 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:35:04.624  INFO 5524 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3261 ms
+2021-06-01 18:35:05.362  WARN 5524 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:35:05.963  INFO 5524 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:35:06.617  INFO 5524 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:35:06.620  WARN 5524 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:35:07.154  INFO 5524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:35:07.926  INFO 5524 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:35:07.976  INFO 5524 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:35:08.164  INFO 5524 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:35:08.179  INFO 5524 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.944 seconds (JVM running for 8.884)
+2021-06-01 18:35:08.189  INFO 5524 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:35:10.254  INFO 5524 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:35:10.255  INFO 5524 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:35:10.269  INFO 5524 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-06-01 18:35:10.318  INFO 5524 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60723
+2021-06-01 18:35:10.509  INFO 5524 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:35:13.257  INFO 5524 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60723 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:35:13.259  INFO 5524 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 18:36:42.479  INFO 6320 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 18:36:42.628  INFO 6320 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 6320 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 18:36:42.639  INFO 6320 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 18:36:42.950  WARN 6320 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 18:36:45.800  WARN 6320 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 18:36:45.840  INFO 6320 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 18:36:45.841  INFO 6320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3021 ms
+2021-06-01 18:36:46.440  WARN 6320 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 18:36:46.972  INFO 6320 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 18:36:47.541  INFO 6320 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 18:36:47.543  WARN 6320 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 18:36:48.274  INFO 6320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 18:36:49.288  INFO 6320 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 18:36:49.354  INFO 6320 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 18:36:49.513  INFO 6320 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 18:36:49.531  INFO 6320 --- [main] lavalink.server.Launcher                 : Started Launcher in 8.048 seconds (JVM running for 8.964)
+2021-06-01 18:36:49.537  INFO 6320 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 18:36:51.612  INFO 6320 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 18:36:51.613  INFO 6320 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 18:36:51.621  INFO 6320 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-01 18:36:51.653  INFO 6320 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60800
+2021-06-01 18:36:51.865  INFO 6320 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 18:37:58.988  INFO 6320 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60800 -- CloseStatus[code=1006, reason=]
+2021-06-01 18:37:58.990  INFO 6320 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 21:46:25.331  INFO 11644 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 21:46:25.590  INFO 11644 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 11644 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 21:46:25.593  INFO 11644 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 21:46:25.841  WARN 11644 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 21:46:30.016  WARN 11644 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 21:46:30.080  INFO 11644 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 21:46:30.081  INFO 11644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4318 ms
+2021-06-01 21:46:31.011  WARN 11644 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 21:46:31.676  INFO 11644 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 21:46:32.224  INFO 11644 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 21:46:32.228  WARN 11644 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 21:46:32.813  INFO 11644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 21:46:34.033  INFO 11644 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 21:46:34.192  INFO 11644 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 21:46:34.393  INFO 11644 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 21:46:34.414  INFO 11644 --- [main] lavalink.server.Launcher                 : Started Launcher in 10.21 seconds (JVM running for 11.432)
+2021-06-01 21:46:34.420  INFO 11644 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 21:46:44.940  INFO 7288 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 21:46:45.205  INFO 7288 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 7288 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 21:46:45.209  INFO 7288 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 21:46:52.572  INFO 11644 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 21:46:52.573  INFO 11644 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 21:46:52.582  INFO 11644 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-01 21:46:52.618  INFO 11644 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50112
+2021-06-01 21:46:52.719  INFO 11644 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 21:47:01.517  INFO 11644 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50112 -- CloseStatus[code=1006, reason=]
+2021-06-01 21:47:01.536  INFO 11644 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 21:47:39.815  INFO 11644 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50163
+2021-06-01 21:47:39.823  INFO 11644 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 23:36:15.639  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"816544618816340028","volume":50}
+2021-06-01 23:36:15.752  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"816544618816340028","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-06-01 23:36:15.754  WARN 11644 --- [XNIO-1 I/O-3] lavalink.server.io.WebSocketHandlers     : The 'equalizer' op has been deprecated in favour of the 'filters' op. Please switch to use that one, as this op will get removed in v4.
+2021-06-01 23:36:15.772  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"816544618816340028","volume":100}
+2021-06-01 23:36:15.773  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"816544618816340028"}
+2021-06-01 23:36:15.871  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"e2d2c0da11e6d84bbc5ab524b77f41ab","op":"voiceUpdate","guildId":"816544618816340028","event":{"token":"ca8521f11226cbee","guild_id":"816544618816340028","endpoint":"south-korea1017.discord.media:443"}}
+2021-06-01 23:36:15.966  INFO 11644 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=0-q1KafFCLU&list=RDMM0-q1KafFCLU&start_radio=1"
+2021-06-01 23:36:16.668  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"e2d2c0da11e6d84bbc5ab524b77f41ab","op":"voiceUpdate","guildId":"816544618816340028","event":{"token":"ca8521f11226cbee","guild_id":"816544618816340028","endpoint":"south-korea1017.discord.media:443"}}
+2021-06-01 23:36:17.231  INFO 11644 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist My Mix
+2021-06-01 23:36:17.367  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"816544618816340028","track":"QAAAiAIAHltNVl0gSVUo7JWE7J207JygKSBfIENlbGVicml0eQAUMXRoZUsgKOybkOuNlOy8gOydtCkAAAAAAAMJWAALMC1xMUthZkZDTFUAAQAnaHR0cHM6Ly95b3V0dWJlLmNvbS93YXRjaD92PTAtcTFLYWZGQ0xVAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-06-01 23:36:19.116  INFO 11644 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$588/0x000000080110d440@405ee0f8
+2021-06-01 23:36:19.136  INFO 11644 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-06-01 23:36:19.138  INFO 11644 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-06-01 23:36:19.188  INFO 11644 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-06-01 23:39:37.330  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"816544618816340028","track":"QAAAkgIAKFtNVl0gSVUo7JWE7J207JygKSBfIEJsdWVtaW5nKOu4lOujqOuwjSkAFDF0aGVLICjsm5DrjZTsvIDsnbQpAAAAAAADYzAAC0QxUHZJV2RKOHhvAAEAJ2h0dHBzOi8veW91dHViZS5jb20vd2F0Y2g/dj1EMVB2SVdkSjh4bwAHeW91dHViZQAAAAAAAAAA"}
+2021-06-01 23:42:13.309  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"816544618816340028","pause":true}
+2021-06-01 23:42:13.310  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"e2d2c0da11e6d84bbc5ab524b77f41ab","op":"voiceUpdate","guildId":"816544618816340028","event":{"token":"ca8521f11226cbee","guild_id":"816544618816340028","endpoint":"south-korea1017.discord.media:443"}}
+2021-06-01 23:42:13.320  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"816544618816340028"}
+2021-06-01 23:45:19.846  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50163 -- CloseStatus[code=1006, reason=]
+2021-06-01 23:45:19.848  INFO 11644 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-01 23:45:28.993  INFO 6548 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            13.0.2
+	Lavaplayer      1.3.74
+
+2021-06-01 23:45:29.196  INFO 6548 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-QRJ4EB6 with PID 6548 (C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood\Lavalink.jar started by vkffk in C:\Users\vkffk\OneDrive\¹ÙÅÁ È­¸é\Wood)
+2021-06-01 23:45:29.199  INFO 6548 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-01 23:45:29.349  WARN 6548 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-01 23:45:32.656  WARN 6548 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-01 23:45:32.699  INFO 6548 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-01 23:45:32.700  INFO 6548 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3402 ms
+2021-06-01 23:45:33.278  WARN 6548 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-01 23:45:33.776  INFO 6548 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-01 23:45:34.259  INFO 6548 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-06-01 23:45:34.264  WARN 6548 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-06-01 23:45:35.154  INFO 6548 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01 23:45:35.854  INFO 6548 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-01 23:45:35.901  INFO 6548 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-01 23:45:36.002  INFO 6548 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-01 23:45:36.017  INFO 6548 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.825 seconds (JVM running for 8.638)
+2021-06-01 23:45:36.020  INFO 6548 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-01 23:45:38.444  INFO 6548 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01 23:45:38.445  INFO 6548 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-01 23:45:38.454  INFO 6548 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-01 23:45:38.483  INFO 6548 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53909
+2021-06-01 23:45:38.593  INFO 6548 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-06-01 23:45:43.455  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"816544618816340028","volume":50}
+2021-06-01 23:45:43.463  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"816544618816340028","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-06-01 23:45:43.464  WARN 6548 --- [XNIO-1 I/O-1] lavalink.server.io.WebSocketHandlers     : The 'equalizer' op has been deprecated in favour of the 'filters' op. Please switch to use that one, as this op will get removed in v4.
+2021-06-01 23:45:43.468  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"816544618816340028","volume":100}
+2021-06-01 23:45:43.469  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"816544618816340028"}
+2021-06-01 23:45:43.483  INFO 6548 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=QWjkas-Xea0&t=1546s"
+2021-06-01 23:45:43.835  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"d97721f052cc2361ce406d52ebafe7cf","op":"voiceUpdate","guildId":"816544618816340028","event":{"token":"333a87ad84784bbc","guild_id":"816544618816340028","endpoint":"south-korea1017.discord.media:443"}}
+2021-06-01 23:45:44.690  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"d97721f052cc2361ce406d52ebafe7cf","op":"voiceUpdate","guildId":"816544618816340028","event":{"token":"333a87ad84784bbc","guild_id":"816544618816340028","endpoint":"south-korea1017.discord.media:443"}}
+2021-06-01 23:45:44.893  INFO 6548 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ¾ÆÄ§¿¡ ´« ¶ßÀÚ¸¶ÀÚ µéÀ¸¸é ÇöÅ¸¿Í¼­ ¹Ù·Î »þ¿öÇÏ·¯ °¡°Ô ¸¸µå´Â ÆË¼Û¤Ó°¡»ç ¾È º¸°íµµ ¶¼Ã¢ °¡´ÉÇÑ ÀÎ»ý ÆË¼Û [#2]¤ÓÃâ±Ù µî±³ ÀÎ±â ÆË¼Û ¸ðÀ½ ½Å³ª´Â ÇÃ·¹ÀÌ¸®½ºÆ®
+2021-06-01 23:45:44.928  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"816544618816340028","track":"QAABSwIA2uyVhOy5qOyXkCDriIgg65yo7J6Q66eI7J6QIOuTpOycvOuptCDtmITtg4DsmYDshJwg67CU66GcIOyDpOybjO2VmOufrCDqsIDqsowg66eM65Oc64qUIO2MneyGoeOFo+qwgOyCrCDslYgg67O06rOg64+EIOuWvOywvSDqsIDriqXtlZwg7J247IOdIO2MneyGoSBbIzJd44Wj7Lac6re8IOuTseq1kCDsnbjquLAg7Yyd7IahIOuqqOydjCDsi6DrgpjripQg7ZSM66CI7J2066as7Iqk7Yq4ABfqsIDsgqwg7ZmA66atZ2FzYSBob2xpYwAAAAAAIIggAAtRV2prYXMtWGVhMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVFXamthcy1YZWEwAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-06-01 23:45:46.720  INFO 6548 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$588/0x0000000801244440@58a34b90
+2021-06-01 23:45:46.735  INFO 6548 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-06-01 23:45:46.736  INFO 6548 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-06-01 23:45:46.785  INFO 6548 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-06-01 23:54:16.169  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53909 -- CloseStatus[code=1006, reason=]
+2021-06-01 23:54:16.216  INFO 6548 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.

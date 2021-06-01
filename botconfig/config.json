@@ -1,0 +1,46 @@
+{
+   "token": "NzkzODc0MjU1NzQxNzE0NDcz.X-ynBA.fXYAM2ESqscp2vChuQi-cvRs3PM",
+   "prefix": "+",
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "localhost",
+            "port": 2333,
+            "password": "youshallnotpass"
+         }
+      ]
+   },
+   "spotify": {
+      "clientSecret": "948ba6f1f73f4031a22b6f8a91752764",
+      "clientID": "047cc68c6d8e429a8a1c1576de626bda"
+   },
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "progressbar_emoji": "🔶",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 30000
+      },
+      "selfDeaf": true,
+      "serverDeaf": true
+   },
+   "lyricssettings": {
+      "lyrics_finder": true,
+      "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+      "ksoft_api": {
+         "use_this_instead": false,
+         "api_key": ""
+      }
+   },
+   "ownerIDS": [
+      "295125078667165697"
+   ],
+   "status": {
+      "text": "🔸 점검중 | Inea Wood",
+      "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING"
+    }
+}
